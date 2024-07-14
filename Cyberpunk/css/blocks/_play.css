@@ -1,0 +1,87 @@
+.play{
+    background-color: var(--black);
+    padding-bottom: 70px;
+}
+
+.play__strip{
+    margin-bottom: 15px;
+    width: 100%;
+    align-content: end;
+    display: block;
+    flex-shrink: 0;
+    object-fit: cover;
+    background-color: var(--white);
+}
+
+.play__title{
+    margin: 0;
+    color:var(--white);
+    padding-bottom: 14px;
+}
+
+.play__prom{
+    display: flex;
+    gap: var(--gap);
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+
+
+
+.play__descr{
+    margin: 0;
+    color:var(--white);
+    max-width: 952px;
+    padding-bottom: 25px;
+}
+
+.play__pictures{
+    display: flex;
+    max-width: 788px;
+    justify-content: space-between;
+    position: relative; /* Добавьте позиционирование для контейнера */
+}
+
+.play__console{
+    width: 460px;
+    height: 456px;
+    position: relative;
+    gap:25px;
+}
+
+.console--img{
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.sega{
+    background-image: url("../../images/sega.png");
+    background-repeat: no-repeat;
+}
+
+.sony {
+    background-image: url("../../images/sony.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 328px;
+    z-index: 10; /* Это уже есть, но убедитесь, что оно применяется */
+}
+
+.play__bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap);
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+    

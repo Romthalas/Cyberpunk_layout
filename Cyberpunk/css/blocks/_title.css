@@ -1,0 +1,60 @@
+.title{
+    margin: 0;
+    font-family: var(--font-family);
+    line-height: 63.3px;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.descr{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.btn__descr{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-decoration: none;
+}
+
+.input__text{
+    color: var(--white);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+}
+
+.input__text--format{
+    margin: 0;
+    color: var(--white);
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.06px;
+
+}
+
+.blue--spn{
+    color:var(--blue);
+    font-weight: 700;
+}
+
+.input__agreement{
+    color: var(--white);
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.06px;
+}
+
+.enum__text{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}

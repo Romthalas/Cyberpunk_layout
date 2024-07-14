@@ -1,0 +1,31 @@
+.footer__text{
+    color: var(--black);
+}
+
+.footer__bottom{
+    background-color: var(--black);
+    padding: 13px 0 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 13px;
+    background-color:var(--white);
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer__pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}

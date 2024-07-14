@@ -1,0 +1,82 @@
+.about{
+    background-color: var(--black);
+}
+
+.about__text{
+    margin: 0;
+    color: var(--blue);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+
+}
+
+
+
+.about__content{
+    display: flex;
+    overflow: hidden;
+}
+
+.about__games{
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+    max-height: 133px;
+    gap: 48px;
+}
+
+.about__games--block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__enum--white{
+    color:var(--white);
+}
+
+
+
+.about__enum--text{
+    margin-bottom: 15px;
+}
+
+.about__enum{
+    margin-bottom: 70px;
+    width: 468px;
+    grid-template-columns: 1fr 466px;
+}
+
+.about__text--bottom{
+    margin-bottom: 25px;
+}
+
+.about__title{
+    margin: 0;
+    color:var(--white);
+    padding-bottom: 25px;
+    max-width: 625px !important;
+    width: 100% !important;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.about__image {
+    display: block;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    transition: width 0.3s ease; /* Добавляем плавный переход для ширины */
+}
+
+.about__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px 32px 70px;
+    /* padding-right: max(var(--container-offset), calc((100% - var(--container-width)) / 2)); */
+    width: 50%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,41 @@
+.hero{
+    background-image: url("../../images/11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    align-content: end;
+    display: block;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.hero__content{
+    justify-items: self-end;
+}
+
+.hero__shield{
+    grid-column: 5 / 9; /* Занимает 4 колонки, начиная с 9-й до 13-й */
+    background-color: var(--yellow);
+    width: 624px;
+    height: 369px;
+}
+
+.poligon{
+    clip-path: polygon(0% 60px, /* верхняя левая */ 50px 0%, /* верхняя левая */ calc(100% - 20px) 0%, /* верхняя правая */ 100% 0px, /* верхняя правая */ 100% calc(100% - 50px), /* нижняя правая */ calc(100% - 60px) 100%, /* нижняя правая */ 0px 100%, /* нижняя левая */ 0 calc(100% - 20px) /* нижняя левая */);
+}
+
+.hero__shield-content{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}   
+
+.hero__title{
+    padding-bottom: 25px;
+}
+
+.hero__btn{
+    color: var(--yellow);
+    background-color: var(--black);
+}

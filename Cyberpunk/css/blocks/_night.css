@@ -1,0 +1,30 @@
+.night{
+    background-color: var(--white);
+}
+
+.night__content{
+    padding: 70px 0 70px;
+}
+
+.night__descr{
+    color: var(--gray);
+    max-width: 952px;
+    margin-bottom: 70px;
+}
+
+.night__pictures{
+    grid-template-rows: 1fr;
+}
+
+.night__pic{
+    grid-column: 1/3;
+}
+
+.night__pic--big{
+    grid-column: 5 / 9;
+    grid-row: 1/3;
+    width: 788px;
+    height: 424px;
+    object-fit: cover; /* Это свойство позволяет обрезать изображение, чтобы оно полностью заполнило заданные размеры */
+}
+

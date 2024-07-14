@@ -1,0 +1,22 @@
+.btn{
+    width: 194px;
+    height: 59px;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--big{
+    width: 272px;
+    height: 78px;
+    padding: 19px 50px 19px 50px;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    transition: var(--main-trs);
+    cursor: pointer;
+}

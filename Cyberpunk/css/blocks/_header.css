@@ -1,0 +1,26 @@
+.header{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap:var(--list-gap);
+}
+
+.logo>img{
+    display: block;
+}
+
+.header__link>svg{
+    display: block;
+}
